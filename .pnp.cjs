@@ -29,6 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@astrojs/check", "virtual:1611aefe2a0816ad5dabc48611691c505541e6d9a405e180d6edb9015509c71fde4c7b8ca19ed22b0f8a0daf0e38bc18248ab7b5a57aff04c97e00fed58dbbfc#npm:0.8.3"],\
           ["astro", "npm:4.12.3"],\
+          ["sass", "npm:1.77.8"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=b45daf"]\
         ],\
         "linkType": "SOFT"\
@@ -1702,6 +1703,7 @@ const RAW_RUNTIME_STATE =
           ["astro-profile", "workspace:."],\
           ["@astrojs/check", "virtual:1611aefe2a0816ad5dabc48611691c505541e6d9a405e180d6edb9015509c71fde4c7b8ca19ed22b0f8a0daf0e38bc18248ab7b5a57aff04c97e00fed58dbbfc#npm:0.8.3"],\
           ["astro", "npm:4.12.3"],\
+          ["sass", "npm:1.77.8"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=b45daf"]\
         ],\
         "linkType": "SOFT"\
@@ -2873,6 +2875,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["iconv-lite", "npm:0.6.3"],\
           ["safer-buffer", "npm:2.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["immutable", [\
+      ["npm:4.3.7", {\
+        "packageLocation": "../../../../.yarn/berry/cache/immutable-npm-4.3.7-a76ac3621b-10c0.zip/node_modules/immutable/",\
+        "packageDependencies": [\
+          ["immutable", "npm:4.3.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4661,6 +4672,18 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../.yarn/berry/cache/safer-buffer-npm-2.1.2-8d5c0b705e-10c0.zip/node_modules/safer-buffer/",\
         "packageDependencies": [\
           ["safer-buffer", "npm:2.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass", [\
+      ["npm:1.77.8", {\
+        "packageLocation": "../../../../.yarn/berry/cache/sass-npm-1.77.8-d0ad322666-10c0.zip/node_modules/sass/",\
+        "packageDependencies": [\
+          ["sass", "npm:1.77.8"],\
+          ["chokidar", "npm:3.6.0"],\
+          ["immutable", "npm:4.3.7"],\
+          ["source-map-js", "npm:1.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
