@@ -1,30 +1,51 @@
 ---
+
 ---
 
 <div class="License-content">
-  <div class="Qualifications">
-    <h3>免許</h3>
-    <ul>
-      <li>普通自動車免許</li>
-      <li>自動二輪免許</li>
-      <li>特殊船舶免許</li>
-      <li>２級小型船舶免許</li>
-    </ul>
-  </div>
-  <div class="License">
-    <h3>資格</h3>
-    <ul>
-      <li>ITパスポート</li>
-      <li>基本情報技術者試験</li>
-      <li>応用情報技術者試験</li>
-      <li>情報処理安全確保支援士＝＞取得に向け勉強中
-      </li>
-    </ul>
+  <div class="License-box">
+    <div class="Qualifications">
+      <h2>免許</h2>
+      <ul>
+        <li>普通自動車免許</li>
+        <li>自動二輪免許</li>
+        <li>特殊船舶免許</li>
+        <li>２級小型船舶免許</li>
+      </ul>
+    </div>
+    <div class="License">
+      <h2>資格</h2>
+      <ul>
+        <li>ITパスポート</li>
+        <li>基本情報技術者試験</li>
+        <li>応用情報技術者試験</li>
+        <li>情報処理安全確保支援士＝＞取得に向け勉強中</li>
+      </ul>
+    </div>
   </div>
 </div>
 
 <style>
   .License-content {
-    display: flex;
+    width: 100%;
+    height: 400px;
+    .License-box {
+      height: 100%;
+      margin: auto;
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      h2 {
+        font-size: 2rem;
+        padding: 2rem;
+      }
+      ul {
+        list-style: none;
+        padding-top: 30px;
+      }
+      li {
+        font-size: 1.5rem;
+      }
+    }
   }
 </style>
