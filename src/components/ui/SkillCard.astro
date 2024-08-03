@@ -1,0 +1,40 @@
+---
+import SkillContent from "./SkillContent.astro";
+---
+
+<div class="skill-content">
+  <h3>Programming Languages</h3>
+  <div class="program-content">
+    <SkillContent text="JavaScript" path="/javascript-icon.png" />
+    <SkillContent text="TypeScript" path="/typescript-icon.png" />
+    <SkillContent text="PHP" path="/php-icon.png" />
+    <SkillContent text="Java" path="/java-icon.png" />
+  </div>
+
+  <h3>Frameworks</h3>
+  <div class="framework-content">
+    <SkillContent text="React.js" path="/react-icon.png" />
+    <SkillContent text="Next.js" path="/nextjs-icon.png" />
+    <SkillContent text="Astro.js" path="/astrojs-icon.png" />
+    <SkillContent text="Node.js" path="/nodejs-icon.png" />
+  </div>
+</div>
+
+<style>
+  .skill-content {
+    h3 {
+      padding: 2rem;
+    }
+    .program-content {
+      width: 100%;
+      display: flex;
+      margin: 20px 0;
+      justify-content: center;
+    }
+    .framework-content {
+      display: flex;
+      margin: 20px 0;
+      justify-content: center;
+    }
+  }
+</style>
