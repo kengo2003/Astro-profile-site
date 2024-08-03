@@ -1,14 +1,21 @@
 ---
+import SkillCard from "./ui/SkillCard.astro";
 ---
 
-<div>
+<div class="skill-content">
   <h2>スキル</h2>
-  <h3>プログラミング言語</h3>
-  <p>JavaScript、TypeScript、PHP</p>
-  <h3>フレームワーク</h3>
-  <p>Next.js、Node.js、Astro.js</p>
+  <div>
+    <SkillCard />
+  </div>
 </div>
 
 <style>
-
+  .skill-content {
+    height: 580px;
+    text-align: center;
+    h2 {
+      font-size: 2rem;
+      padding: 2rem;
+    }
+  }
 </style>

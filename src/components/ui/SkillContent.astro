@@ -1,0 +1,32 @@
+---
+interface Props {
+  text: string;
+  path: string;
+}
+const { text, path } = Astro.props;
+---
+
+<div class="skill-box">
+  <img src=`/image/skill-icons${path}` alt="icon" />
+  <p>{text}</p>
+</div>
+
+<style>
+  .skill-box {
+    width: 180px;
+    background-color: #1a2633;
+    padding: 1rem;
+    margin: 10px;
+    border: 1px solid #334d66;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    p {
+      padding-left: 10px;
+    }
+    img {
+      height: 24px;
+      width: 24px;
+    }
+  }
+</style>
