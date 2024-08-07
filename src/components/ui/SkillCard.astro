@@ -23,7 +23,7 @@ import SkillContent from "./SkillContent.astro";
 <style>
   .skill-content {
     h3 {
-      padding: 2rem;
+      padding: 20px;
     }
     .program-content {
       width: 100%;
@@ -35,6 +35,22 @@ import SkillContent from "./SkillContent.astro";
       display: flex;
       margin: 20px 0;
       justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 599px) {
+    .skill-content {
+      h3 {
+        padding: 10px;
+      }
+      .program-content {
+        display: grid;
+        margin: 0;
+      }
+      .framework-content {
+        display: grid;
+        margin: 0;
+      }
     }
   }
 </style>

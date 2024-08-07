@@ -29,4 +29,19 @@ const { text, path } = Astro.props;
       width: 24px;
     }
   }
+
+  @media screen and (max-width: 599px) {
+    .skill-box {
+      width: 100px;
+      padding: 10px;
+      margin: 0;
+      p {
+        padding-left: 7px;
+      }
+      img {
+        height: 18px;
+        width: 18px;
+      }
+    }
+  }
 </style>

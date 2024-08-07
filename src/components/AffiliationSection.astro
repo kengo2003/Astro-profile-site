@@ -9,7 +9,11 @@
   </div>
   <div class="affiliation-right">
     <p>北海道情報専門学校　大学併修科</p>
-    <p>北海道情報大学　通信教育部経営情報部　システム情報学科</p>
+    <p>
+      北海道情報大学　通信教育部経営情報部　<br
+        class="school-br"
+      />システム情報学科
+    </p>
     <p>2026年卒</p>
   </div>
 </div>
@@ -21,7 +25,7 @@
     .affiliation-left {
       margin: auto;
       h2 {
-        font-size: 2rem;
+        font-size: 26px;
         text-align: right;
       }
       p {
@@ -32,6 +36,35 @@
     .affiliation-right {
       margin: auto;
       font-size: 1.5rem;
+      .school-br {
+        display: none;
+      }
+    }
+  }
+  @media screen and (max-width: 599px) {
+    .affiliation-content {
+      height: 250px;
+      display: block;
+      .affiliation-left {
+        margin: 0;
+        h2 {
+          font-size: 26px;
+          text-align: center;
+          padding-top: 25px;
+        }
+        p {
+          font-size: 16px;
+          padding-bottom: 25px;
+        }
+      }
+      .affiliation-right {
+        margin: 0;
+        padding: 0 20px;
+        font-size: 16px;
+        .school-br {
+          display: block;
+        }
+      }
     }
   }
 </style>
