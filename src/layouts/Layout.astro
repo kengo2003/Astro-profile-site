@@ -1,7 +1,7 @@
 ---
-import HeaderSection from '../components/HeaderSection.astro';
+import HeaderSection from "../components/HeaderSection.astro";
 interface Props {
-	title: string;
+  title: string;
 }
 
 const { title } = Astro.props;
@@ -9,29 +9,37 @@ const { title } = Astro.props;
 
 <!doctype html>
 <html lang="ja">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<HeaderSection/>
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Astro description" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <HeaderSection />
+    <slot />
+  </body>
 </html>
 <style is:global>
-	* {
-		padding: 0;
-		margin: 0;
-	}
-	html {
-		background-color: #1E1E1E;
-		color: #ffffff;
-		body {
-			margin-bottom: 100px;
-		}
-	}
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  html {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    body {
+      margin-bottom: 100px;
+    }
+  }
+
+  @media screen and (max-width: 599px) {
+    html {
+      body {
+        margin-bottom: 50px;
+      }
+    }
+  }
 </style>

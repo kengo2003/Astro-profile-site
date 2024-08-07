@@ -24,13 +24,11 @@
     margin: 0 80px;
     border-bottom: 1px solid #365069;
   }
-
   .header-left {
     h1 {
       margin-left: 80px;
     }
   }
-
   .header-right {
     margin-left: auto;
     ul {
@@ -38,6 +36,27 @@
       list-style: none;
       li {
         padding: 0 40px;
+      }
+    }
+  }
+  @media screen and (max-width: 599px) {
+    .header {
+      margin: 0 20px;
+    }
+    .header-left {
+      h1 {
+        margin: 0;
+      }
+    }
+    .header-right {
+      display: none;
+      margin-left: auto;
+      ul {
+        display: flex;
+        list-style: none;
+        li {
+          padding: 0px;
+        }
       }
     }
   }
