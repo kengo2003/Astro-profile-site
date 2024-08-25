@@ -22,16 +22,13 @@ import SkillContent from "./SkillContent.astro";
 
 <style>
   .skill-content {
+    width: 100%;
     h3 {
       padding: 20px;
     }
-    .program-content {
-      width: 100%;
-      display: flex;
-      margin: 20px 0;
-      justify-content: center;
-    }
+    .program-content,
     .framework-content {
+      width: 100%;
       display: flex;
       margin: 20px 0;
       justify-content: center;
@@ -40,16 +37,13 @@ import SkillContent from "./SkillContent.astro";
 
   @media screen and (max-width: 599px) {
     .skill-content {
-      h3 {
-        padding: 20px;
-      }
       .program-content,
       .framework-content {
         display: grid;
         grid-template: repeat(2, auto) / repeat(2, auto);
         gap: 15px;
         margin: 0;
-        padding: 20px;
+        padding: 20px 0;
       }
     }
   }
