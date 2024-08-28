@@ -589,6 +589,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource-variable/source-code-pro@npm:^5.0.20":
+  version: 5.0.20
+  resolution: "@fontsource-variable/source-code-pro@npm:5.0.20"
+  checksum: 10c0/aceec805c72b2b85ee466cd908fe93897e414849d8b526166a0741972c69c82f592fe89c5523b876a513ed00f22066a8538ffe74eb0d4df42d533e3f5652347d
+  languageName: node
+  linkType: hard
+
+"@fontsource/ubuntu@npm:^5.0.14":
+  version: 5.0.14
+  resolution: "@fontsource/ubuntu@npm:5.0.14"
+  checksum: 10c0/32c877a8233fff22186aa803660f9355fa5f577cd39783f7f04c77f7bf40ed5312190660d0d5a0fa8441c1967caf1e269b63460ffdd959bab2fcff6c216211e6
+  languageName: node
+  linkType: hard
+
 "@img/sharp-darwin-arm64@npm:0.33.4":
   version: 0.33.4
   resolution: "@img/sharp-darwin-arm64@npm:0.33.4"
@@ -1341,6 +1355,8 @@ __metadata:
   resolution: "astro-profile@workspace:."
   dependencies:
     "@astrojs/check": "npm:^0.8.3"
+    "@fontsource-variable/source-code-pro": "npm:^5.0.20"
+    "@fontsource/ubuntu": "npm:^5.0.14"
     astro: "npm:^4.12.3"
     sass: "npm:^1.77.8"
     typescript: "npm:^5.5.4"
