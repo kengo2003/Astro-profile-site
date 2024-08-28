@@ -1,5 +1,6 @@
 ---
 import HeaderSection from "../components/HeaderSection.astro";
+import "@fontsource/ubuntu";
 interface Props {
   title: string;
 }
@@ -31,6 +32,7 @@ const { title } = Astro.props;
     background-color: #1e1e1e;
     color: #ffffff;
     body {
+      font-family: "Ubuntu", sans-serif;
       margin-bottom: 100px;
     }
   }

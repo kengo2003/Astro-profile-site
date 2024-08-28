@@ -28,6 +28,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@astrojs/check", "virtual:1611aefe2a0816ad5dabc48611691c505541e6d9a405e180d6edb9015509c71fde4c7b8ca19ed22b0f8a0daf0e38bc18248ab7b5a57aff04c97e00fed58dbbfc#npm:0.8.3"],\
+          ["@fontsource-variable/source-code-pro", "npm:5.0.20"],\
+          ["@fontsource/ubuntu", "npm:5.0.14"],\
           ["astro", "npm:4.12.3"],\
           ["sass", "npm:1.77.8"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=b45daf"]\
@@ -757,6 +759,24 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/@esbuild-win32-x64-npm-0.21.5-eddc2b5ad6/node_modules/@esbuild/win32-x64/",\
         "packageDependencies": [\
           ["@esbuild/win32-x64", "npm:0.21.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@fontsource-variable/source-code-pro", [\
+      ["npm:5.0.20", {\
+        "packageLocation": "../../../../.yarn/berry/cache/@fontsource-variable-source-code-pro-npm-5.0.20-fe497df647-10c0.zip/node_modules/@fontsource-variable/source-code-pro/",\
+        "packageDependencies": [\
+          ["@fontsource-variable/source-code-pro", "npm:5.0.20"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@fontsource/ubuntu", [\
+      ["npm:5.0.14", {\
+        "packageLocation": "../../../../.yarn/berry/cache/@fontsource-ubuntu-npm-5.0.14-f1ce818419-10c0.zip/node_modules/@fontsource/ubuntu/",\
+        "packageDependencies": [\
+          ["@fontsource/ubuntu", "npm:5.0.14"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1702,6 +1722,8 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["astro-profile", "workspace:."],\
           ["@astrojs/check", "virtual:1611aefe2a0816ad5dabc48611691c505541e6d9a405e180d6edb9015509c71fde4c7b8ca19ed22b0f8a0daf0e38bc18248ab7b5a57aff04c97e00fed58dbbfc#npm:0.8.3"],\
+          ["@fontsource-variable/source-code-pro", "npm:5.0.20"],\
+          ["@fontsource/ubuntu", "npm:5.0.14"],\
           ["astro", "npm:4.12.3"],\
           ["sass", "npm:1.77.8"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=b45daf"]\
